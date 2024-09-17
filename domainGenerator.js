@@ -1,13 +1,13 @@
-let marcas = ["tech", "sol", "group"];
+let brands = ["tech", "sol", "group"];
 
-let adj = ["fast", "smart", "secure"];
+let adjectives = ["fast", "smart", "secure"];
 
-let dominioComercial = [".com", ".net", ".org"];
+let domains = [".com", ".net", ".org"];
 
-for (let marca of marcas) {
-  for (let adjetivo of adj) {
-    for (let dominio of dominioComercial) {
-      console.log("www." + marca + adjetivo + dominio);
+for (let brand of brands) {
+  for (let adjective of adjectives) {
+    for (let domain of domains) {
+      console.log("www." + brand + adjective + domain);
     }
   }
 }
